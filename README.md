@@ -3,7 +3,7 @@ Template for Master FP protocols
 
 # How to contribute
 ## First time
-* `git clone https://github.com/sebschneid/fp-template.git`
+* do https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls and `git clone git@github.com:sebschneid/fp-template.git` 
 ## Afterwards
 * `git pull` before starting to work to get changes from others
 * `git add` additional files
