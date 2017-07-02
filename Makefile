@@ -5,8 +5,8 @@ main.pdf: content/* figures/* data/*
 	biber main.bcf
 	lualatex content/main.tex
 	lualatex content/main.tex
-	mkdir -p logfiles
-	mv *.log *.aux *.out *.toc *.bbl *.bcf *.run *.xml *.blg ./logfiles
+	mkdir -p log
+	mv *.log *.aux *.out *.toc *.bbl *.bcf *.run *.xml *.blg ./log
 
 clean:
-	rm -rf logfiles 
+	rm -rf log 
