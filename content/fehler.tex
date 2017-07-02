@@ -1,0 +1,22 @@
+\subsection{Statistische Grundlagen und Fehlerrechnung}
+Die Bildung des Mittelwertes einer Messgröße, nach n-facher Widerholung der Messung, wurde mit folgender Formel vorgenommen:
+\begin{align}
+  \overline{x} = \frac{1}{n} \sum_{i=1}^{n} x_i.
+\label{eq:mean}
+\end{align}
+Der statistische Fehler des Mittelwertes$ \overline{x}$ folgt nach Gleichung (\ref{eq:meanerr})
+\begin{align}
+  \Delta x = \frac{\sigma}{\sqrt{n}} = \sqrt{\frac{1}{n(n-1)}\sum_{i=1}^{n} (x_i-\overline{x})^2}.
+\label{eq:meanerr}
+\end{align}
+In Gleichung (\ref{eq:meanerr}) steht $\sigma$ für die Standartabweichung der Messwerte und berechnet sich nach
+\begin{align}
+  \sigma = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n} (x_i-\overline{x})^2}.
+\label{eq:stabw}
+\end{align}
+Die Unsicherheit einer Größe $y$, bei mehreren voneinander unabhängigen Eingangsgrößen $x_1, x_2, ..., x_n$, berechnet sich nach Gauß'scher Fehlerfortpflanzung
+\begin{align}
+u_y =\sqrt{ \left ( \frac{\partial y}{\partial x_1} \cdot \Delta x_1 \right )^2 +\left ( \frac{\partial y}{\partial x_2} \cdot \Delta x_2 \right )^2 + ... + \left ( \frac{\partial y}{\partial x_n} \cdot \Delta x_n \right )^2}.
+  \label{eq:gauss}
+\end{align}
+
