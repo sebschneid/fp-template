@@ -1,0 +1,12 @@
+main.pdf
+.blg
+.log
+.out
+.toc
+.bbl
+.run
+.bcf
+.xml
+.blg
+.aux
+log/
