@@ -1,6 +1,12 @@
 # fp-template
 Template for Master FP protocols
 
+# Directory structure
+* `content`: `.tex` files with content.
+* `data`: Measured data from the experiment.
+* `figures`: Figures from the experiment manual or other sources.
+* `plots`: Figures/Plots made for the data analysis.
+
 # How to contribute
 ## First time
 * do https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-ssh-urls and `git clone git@github.com:sebschneid/fp-template.git` 
