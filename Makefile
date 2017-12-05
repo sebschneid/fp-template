@@ -10,3 +10,4 @@ main.pdf: content/* figures/* data/*
 
 clean:
 	rm -rf log 
+        rm main.pdf
