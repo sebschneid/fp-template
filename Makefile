@@ -6,7 +6,7 @@ main.pdf: content/* figures/* data/*
 	lualatex main.tex
 	lualatex main.tex
 	mkdir -p log
-	mv *.log *.aux *.out *.toc *.bbl *.bcf *.run *.xml *.blg ./log
+	mv *.log *.aux *.toc *.bbl *.bcf *.xml *.blg ./log
 
 clean:
 	rm -rf log 
